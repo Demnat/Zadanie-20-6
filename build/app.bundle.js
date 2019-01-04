@@ -86,6 +86,28 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/css-loader/dist/cjs.js?!./src/components/Todo.css":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/components/Todo.css ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"._1ucRaL_KBl2w4sy18IAaRE {\\r\\n    padding: 5px 0;\\r\\n    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;\\r\\n}\", \"\"]);\n\n// Exports\nexports.locals = {\n\t\"todo\": \"_1ucRaL_KBl2w4sy18IAaRE\"\n};\n\n//# sourceURL=webpack:///./src/components/Todo.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./src/components/TodoList.css":
+/*!*************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/components/TodoList.css ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"._1AmZKrhg-Y7E5aqFRDxsL0 {\\r\\n    padding: 20px 20px 20px 40px;\\r\\n    background-color: #fff;\\r\\n}\", \"\"]);\n\n// Exports\nexports.locals = {\n\t\"dataList\": \"_1AmZKrhg-Y7E5aqFRDxsL0\"\n};\n\n//# sourceURL=webpack:///./src/components/TodoList.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js?!./src/containers/App.css":
 /*!********************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/containers/App.css ***!
@@ -341,6 +363,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 
 /***/ }),
 
+/***/ "./src/components/Todo.css":
+/*!*********************************!*\
+  !*** ./src/components/Todo.css ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-1!./Todo.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/components/Todo.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/components/Todo.css?");
+
+/***/ }),
+
 /***/ "./src/components/Todo.js":
 /*!********************************!*\
   !*** ./src/components/Todo.js ***!
@@ -349,7 +382,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(function(React) {var Todo = function Todo(props) {\n  return React.createElement(\"li\", {\n    className: 'todo',\n    id: props.id\n  }, props.text);\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Todo);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! react */ \"./node_modules/react/index.js\")))\n\n//# sourceURL=webpack:///./src/components/Todo.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(function(React) {/* harmony import */ var _Todo_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Todo.css */ \"./src/components/Todo.css\");\n/* harmony import */ var _Todo_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Todo_css__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar Todo = function Todo(props) {\n  return React.createElement(\"li\", {\n    className: _Todo_css__WEBPACK_IMPORTED_MODULE_0___default.a.todo,\n    id: props.id,\n    onClick: function onClick() {\n      return props.remove(props.id);\n    }\n  }, props.text);\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Todo);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! react */ \"./node_modules/react/index.js\")))\n\n//# sourceURL=webpack:///./src/components/Todo.js?");
+
+/***/ }),
+
+/***/ "./src/components/TodoList.css":
+/*!*************************************!*\
+  !*** ./src/components/TodoList.css ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-1!./TodoList.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/components/TodoList.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/components/TodoList.css?");
 
 /***/ }),
 
@@ -361,7 +405,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(function(React) {/* harmony import */ var _Todo_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Todo.js */ \"./src/components/Todo.js\");\n\n\nvar TodoList = function TodoList(props) {\n  var list = props.datal.map(function (data) {\n    return React.createElement(_Todo_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"], {\n      text: data.text,\n      key: data.id,\n      onClick: props.remove(data.id)\n    });\n  });\n  return React.createElement(\"ul\", {\n    className: 'dataList',\n    id: 'todoList'\n  }, list);\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (TodoList);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! react */ \"./node_modules/react/index.js\")))\n\n//# sourceURL=webpack:///./src/components/TodoList.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(function(React) {/* harmony import */ var _Todo_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Todo.js */ \"./src/components/Todo.js\");\n/* harmony import */ var _TodoList_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TodoList.css */ \"./src/components/TodoList.css\");\n/* harmony import */ var _TodoList_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_TodoList_css__WEBPACK_IMPORTED_MODULE_1__);\nvar _this = undefined;\n\n\n\n\nvar TodoList = function TodoList(props) {\n  var list = props.datal.map(function (data) {\n    return React.createElement(_Todo_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"], {\n      text: data.text,\n      id: data.id,\n      key: data.id,\n      remove: props.remove.bind(_this)\n    });\n  });\n  return React.createElement(\"ul\", {\n    className: _TodoList_css__WEBPACK_IMPORTED_MODULE_1___default.a.dataList,\n    id: 'todoList'\n  }, list);\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (TodoList);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! react */ \"./node_modules/react/index.js\")))\n\n//# sourceURL=webpack:///./src/components/TodoList.js?");
 
 /***/ }),
 
